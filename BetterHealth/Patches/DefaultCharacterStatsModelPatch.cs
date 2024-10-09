@@ -80,12 +80,12 @@ namespace BetterHealth.Patches {
 
                     if (BetterHealth.Settings.PlayerControlSkills) {
                         controlBonusHealth = BetterHealth.Settings.PlayerControlHealthValue;
-                        totalControlSkills = GetVigorSkillTotal(character, BetterHealth.Settings.PlayerControlBowSkill, BetterHealth.Settings.PlayerControlCrossbowSkill, BetterHealth.Settings.PlayerControlThrowingSkill);
+                        totalControlSkills = GetControlSkillTotal(character, BetterHealth.Settings.PlayerControlBowSkill, BetterHealth.Settings.PlayerControlCrossbowSkill, BetterHealth.Settings.PlayerControlThrowingSkill);
                     }
 
                     if (BetterHealth.Settings.PlayerEnduranceSkills) {
                         enduranceBonusHealth = BetterHealth.Settings.PlayerEnduranceHealthValue;
-                        totalEnduranceSkills = GetVigorSkillTotal(character, BetterHealth.Settings.PlayerEnduranceRidingSkill, BetterHealth.Settings.PlayerEnduranceAthleticsSkill, BetterHealth.Settings.PlayerEnduranceSmithingSkill);
+                        totalEnduranceSkills = GetEnduranceSkillTotal(character, BetterHealth.Settings.PlayerEnduranceRidingSkill, BetterHealth.Settings.PlayerEnduranceAthleticsSkill, BetterHealth.Settings.PlayerEnduranceSmithingSkill);
                     }
 
 
@@ -110,12 +110,12 @@ namespace BetterHealth.Patches {
 
                     if (BetterHealth.Settings.HeroControlSkills) {
                         controlBonusHealth = BetterHealth.Settings.HeroControlHealthValue;
-                        totalControlSkills = GetVigorSkillTotal(character, BetterHealth.Settings.HeroControlBowSkill, BetterHealth.Settings.HeroControlCrossbowSkill, BetterHealth.Settings.HeroControlThrowingSkill);
+                        totalControlSkills = GetControlSkillTotal(character, BetterHealth.Settings.HeroControlBowSkill, BetterHealth.Settings.HeroControlCrossbowSkill, BetterHealth.Settings.HeroControlThrowingSkill);
                     }
 
                     if (BetterHealth.Settings.HeroEnduranceSkills) {
                         enduranceBonusHealth = BetterHealth.Settings.HeroEnduranceHealthValue;
-                        totalEnduranceSkills = GetVigorSkillTotal(character, BetterHealth.Settings.HeroEnduranceRidingSkill, BetterHealth.Settings.HeroEnduranceAthleticsSkill, BetterHealth.Settings.HeroEnduranceSmithingSkill);
+                        totalEnduranceSkills = GetEnduranceSkillTotal(character, BetterHealth.Settings.HeroEnduranceRidingSkill, BetterHealth.Settings.HeroEnduranceAthleticsSkill, BetterHealth.Settings.HeroEnduranceSmithingSkill);
                     }
 
 
@@ -137,12 +137,12 @@ namespace BetterHealth.Patches {
 
                     if (BetterHealth.Settings.TroopControlSkills) {
                         controlBonusHealth = BetterHealth.Settings.TroopControlHealthValue;
-                        totalControlSkills = GetVigorSkillTotal(character, BetterHealth.Settings.TroopControlBowSkill, BetterHealth.Settings.TroopControlCrossbowSkill, BetterHealth.Settings.TroopControlThrowingSkill);
+                        totalControlSkills = GetControlSkillTotal(character, BetterHealth.Settings.TroopControlBowSkill, BetterHealth.Settings.TroopControlCrossbowSkill, BetterHealth.Settings.TroopControlThrowingSkill);
                     }
 
                     if (BetterHealth.Settings.TroopEnduranceSkills) {
                         enduranceBonusHealth = BetterHealth.Settings.TroopEnduranceHealthValue;
-                        totalEnduranceSkills = GetVigorSkillTotal(character, BetterHealth.Settings.TroopEnduranceRidingSkill, BetterHealth.Settings.TroopEnduranceAthleticsSkill, BetterHealth.Settings.TroopEnduranceSmithingSkill);
+                        totalEnduranceSkills = GetEnduranceSkillTotal(character, BetterHealth.Settings.TroopEnduranceRidingSkill, BetterHealth.Settings.TroopEnduranceAthleticsSkill, BetterHealth.Settings.TroopEnduranceSmithingSkill);
                     }
                 }
 
